@@ -1,6 +1,4 @@
 var isFromBellville = function(vehicle){
-    var fromBellville = vehicle.startsWith('CY')
+    var fromBellville = vehicle.startsWith('CY');
     return fromBellville;
-  
-
-}
+};

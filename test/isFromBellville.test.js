@@ -8,4 +8,8 @@ describe('Indicates whether the number plate is from bellville or not' , functio
     it('Registration plate starts with CJ should return false' , function(){
         assert.equal(false , isFromBellville('CJ'))
     });
+
+    it('Registration plate starts with CA should return false' , function(){
+        assert.equal(false , isFromBellville('CA'))
+    });
 });    
