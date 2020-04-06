@@ -1,4 +1,4 @@
-describe("counts how many rgistration numbers are from Paarl", function(){
+describe("counts how many registration numbers are from Paarl", function(){
   
     it (" returns the number of registration numbers in Paarl", function() {
         assert.equal(3, countAllPaarl('CJ 345 123, CJ 2345, CL 123-546, CK 345, CJ 123'));
