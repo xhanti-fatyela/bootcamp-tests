@@ -7,7 +7,9 @@ describe("findItemsOver function", function(){
             {name : 'bananas', qty : 27},
             {name : 'apples', qty : 3},
         ];
-        var threshold = 20 ;
-        assert.equal(threshold, findItemsOver(itemList));
+        var results = [
+            {"name":"apples","qty":3}
+        ] ;
+        assert.equal(0, findItemsOver(itemList));
     });
 });

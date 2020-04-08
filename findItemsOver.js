@@ -1,5 +1,5 @@
 function findItemsOver(listNameQty, QtyAvail){
-    var higher = 20
+    var higher = []
     for(var i=0;i<listNameQty.length;i++){
        var lower = listNameQty[i]; 
        if(lower.qty > QtyAvail){

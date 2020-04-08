@@ -1,5 +1,5 @@
 function findItemsOver20(namesAndQty){
-    var listNames = [{name : 'pears', qty : 37}]
+    var listNames = []
       for(var i=0;i<namesAndQty.length;i++){
           var listOfFruits = namesAndQty[i];
           if(listOfFruits.qty > 20){

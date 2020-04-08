@@ -18,6 +18,6 @@ describe("mostProfitableDepartment function", function(){
             {department: 'outdoor', sales: 12006, day: 'Friday'},
             {department: 'carpentry', sales: 16109, day: 'Friday'}
         ];
-        assert.equal('outdoor', mostProfitableDepartment('salesDate'));
+        assert.equal('outdoor', mostProfitableDepartment(salesData));
     });
 });
